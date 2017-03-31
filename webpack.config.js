@@ -59,6 +59,7 @@ var defaultConfig = {
   },
 
   devServer: {
+    host: "0.0.0.0",
     historyApiFallback: true,
     watchOptions: { aggregateTimeout: 300, poll: 1000 },
     headers: {
